@@ -1,0 +1,17 @@
+[project]
+name = "tasks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.11.0",
+    "langchain>=0.3.25",
+    "numpy>=2.2.5",
+    "openai>=1.78.1",
+    "pandas>=2.2.3",
+    "sec-downloader>=0.11.2",
+    "sec-parser>=0.58.1",
+    "tiktoken>=0.9.0",
+    "torch>=2.7.0",
+]
